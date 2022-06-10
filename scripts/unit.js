@@ -22,6 +22,9 @@ export class Unit {
                 const textures = Object.values(masterTextures);
                 this.#sprites[item.name] = new AnimatedSprite(textures);
                 this.#sprites[item.name].animationSpeed = 0.2;
+                this.#sprites[item.name].anchor.x = 0.5;
+                this.#sprites[item.name].anchor.y = 1;
+
             }
 
             this.#state.sprite = this.#sprites['baseLeft'];
@@ -36,6 +39,7 @@ export class Unit {
         'd': {nameSprite: 'goRight', x: 10, y: 0 },
         'w': {nameSprite: 'goLeft', x: 0, y: -10 },
         's': {nameSprite: 'goLeft', x: 0, y: 10 },
+        'j': {nameSprite: 'hitLeft', x: 0, y: 0 },
         'base': {nameSprite: 'baseLeft', x: 0, y: 0 }
     }
 
@@ -44,10 +48,12 @@ export class Unit {
         if(keyButton === 'a') {
             this.#actions['w'].nameSprite = 'goLeft';
             this.#actions['s'].nameSprite = 'goLeft';
+            this.#actions['j'].nameSprite = 'hitLeft';
             this.#actions['base'].nameSprite = 'baseLeft';
         } else if (keyButton === 'd') {
             this.#actions['w'].nameSprite = 'goRight';
             this.#actions['s'].nameSprite = 'goRight';
+            this.#actions['j'].nameSprite = 'hitRight';
             this.#actions['base'].nameSprite = 'baseRight';
         }
 

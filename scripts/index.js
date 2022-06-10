@@ -22,8 +22,11 @@ const atlasNeanderthal = [
     {name:"baseLeft", url:"../effects/neanderthalBaseLeft.json"},
     {name:"baseRight", url:"../effects/neanderthalBaseRight.json"},
     {name:"goLeft", url:"../effects/neanderthalGoLeft.json"},
-    {name:"goRight", url:"../effects/neanderthalGoRight.json"}
+    {name:"goRight", url:"../effects/neanderthalGoRight.json"},
+    {name:"hitLeft", url:"../effects/neanderthalHitLeft.json"},
+    {name:"hitRight", url:"../effects/neanderthalHitRight.json"}
 ];
+
 
 
 const neanderthal = new Unit(atlasNeanderthal, loader, resources, AnimatedSprite, application);
