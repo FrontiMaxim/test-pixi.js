@@ -62,7 +62,7 @@ export class Unit {
 
         const action = this.#actions[keyButton];
 
-        if (keyButton !== this.#state.endKeyButton) {
+        if (keyButton !== this.#state.endKeyButton && (keyButton in this.#actions)){
 
             application.stage.removeChild(this.#state.sprite);
             this.#state.sprite = this.#sprites[action.nameSprite];
