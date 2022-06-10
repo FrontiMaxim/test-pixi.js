@@ -1,0 +1,115 @@
+{
+	"frames": {
+		"neanderthalBase1.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 239,
+				"h": 219
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 239,
+				"h": 219
+			},
+			"sourceSize": {
+				"w": 239,
+				"h": 219
+			}
+		},
+		"neanderthalBase2.png": {
+			"frame": {
+				"x": 242,
+				"y": 1,
+				"w": 239,
+				"h": 219
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 239,
+				"h": 219
+			},
+			"sourceSize": {
+				"w": 239,
+				"h": 219
+			}
+		},
+		"neanderthalBase3.png": {
+			"frame": {
+				"x": 1,
+				"y": 222,
+				"w": 239,
+				"h": 219
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 239,
+				"h": 219
+			},
+			"sourceSize": {
+				"w": 239,
+				"h": 219
+			}
+		},
+		"neanderthalBase4.png": {
+			"frame": {
+				"x": 242,
+				"y": 222,
+				"w": 239,
+				"h": 219
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 239,
+				"h": 219
+			},
+			"sourceSize": {
+				"w": 239,
+				"h": 219
+			}
+		},
+		"neanderthalBase5.png": {
+			"frame": {
+				"x": 483,
+				"y": 1,
+				"w": 239,
+				"h": 219
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 239,
+				"h": 219
+			},
+			"sourceSize": {
+				"w": 239,
+				"h": 219
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "neanderthalBaseLeft.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 723,
+			"h": 442
+		},
+		"scale": "1"
+	}
+}
